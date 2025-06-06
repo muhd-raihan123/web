@@ -1,1 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
 
+header, nav, footer {
+  background-color: #004080;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  font-size: 32px;
+}
+
+h2 {
+  color: #004080;
+  font-size: 24px;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode h2 {
+  color: #66b2ff;
+}
+
+section {
+  padding: 16px 32px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+button {
+  margin: 8px;
+  padding: 8px 16px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3366cc;
+}
+
+footer {
+  margin-top: 32px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode header,
+.dark-mode nav,
+.dark-mode footer {
+  background-color: #222;
+}
+
+.dark-mode table, .dark-mode th, .dark-mode td {
+  border-color: #555;
+}
